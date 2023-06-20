@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background changer</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 20px 100px;
+        }
+        h1{
+            text-align: center;
+            padding: 5px;
+            text-decoration: underline;
+            text-transform: capitalize;
+            background-color: beige;
+            border-radius: 5px;
+        }
+        img{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+        p{
+            text-align: justify;
+            font-size: 15px;
+            font-style: italic;
+        }
+        #colour_switcher{
+            text-align: right;
+        }
+        .btn{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 1px solid blue;
+            cursor: pointer;
+        }
+        #white{
+                background-color: white;
+        }
+        #lightgray{
+                background-color: lightgray;
+        }
+        #lightblue{
+                background-color: lightblue;
+        }
+        #lightsalmon{
+                background-color: lightsalmon;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="colour_switcher">
+        <span class="btn" id="white" onclick="changeBg('white')"></span>
+        <span class="btn" id="lightgray" onclick="changeBg('lightgray')"></span>
+        <span class="btn" id="lightblue" onclick="changeBg('lightblue')"></span>
+        <span class="btn" id="lightsalmon" onclick="changeBg('lightsalmon')"></span>
+    </div>
+
+    <h1 class="sticky" id="head">Change the background colour</h1>
+    <img src="https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?auto=compress&cs=tinysrgb&w=800" alt="">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quos, quidem rerum tenetur architecto neque maxime minima debitis. Ducimus, molestiae officia. Obcaecati, eius id culpa exercitationem repellat quis sed veniam necessitatibus nemo nihil, consequuntur recusandae? Ducimus maxime temporibus eum voluptates consequatur dicta illo obcaecati enim quis laudantium non maiores, cum placeat, incidunt, molestias odio nulla nam qui recusandae possimus nemo eius deleniti? Sint ad dolorem repellat quisquam error alias at ab eum, deserunt odio tempora fuga, asperiores corrupti accusantium? Sit iste nam tempore similique omnis optio consectetur laboriosam voluptatum nostrum nesciunt rem architecto eos reprehenderit enim illum minima sequi totam, esse fugit? Quod, aut nostrum atque, iusto nesciunt tenetur sequi at dolorum necessitatibus possimus in totam aperiam quasi voluptate, inventore quae asperiores quas sapiente non unde et ipsa culpa. Quam, quae? Aliquam non quibusdam eius esse nesciunt illo, reprehenderit aliquid vitae dignissimos nisi suscipit praesentium fugiat saepe, et ipsum voluptates. Voluptatibus ipsum natus ratione dolore animi sint a non voluptas modi similique minima, alias, eveniet veritatis fugit dolor porro quisquam! Sint quos cumque, praesentium quia modi architecto, mollitia illo vel quas repudiandae cum dolor magnam totam repellendus explicabo dolorum! Praesentium quo laboriosam, ducimus laudantium molestias dignissimos error adipisci ex blanditiis ut, quaerat consequuntur, labore quae autem fuga expedita dolor libero veniam? Aliquam nihil alias consequuntur ipsum sunt ratione quis corporis inventore, aspernatur odit cumque unde, saepe accusantium? Architecto quaerat facere velit officiis, pariatur, reiciendis veritatis facilis dicta eligendi a maxime, officia odit! Officia ut numquam eius ducimus, vitae fugit fugiat quas tempore facilis animi voluptatum enim deleniti consequuntur voluptatibus veritatis voluptatem id, voluptate voluptates natus repellendus dignissimos impedit totam! Perferendis soluta dolores suscipit aliquid animi harum odio recusandae iste ipsa ad a, molestias quas voluptatem voluptatum voluptatibus mollitia reiciendis? Consectetur, facilis quo, sed corporis repellat doloribus magnam repudiandae praesentium eos enim dolorem totam, ab asperiores nesciunt fugit in ut obcaecati iure. Adipisci officia velit corporis, perspiciatis nulla totam aut expedita ducimus necessitatibus ipsum est vel nihil qui ad itaque molestiae dignissimos, accusantium animi quis eius neque dolor voluptates debitis voluptatem! Similique culpa obcaecati iusto facere suscipit, dignissimos laudantium asperiores fugiat quis nobis molestias corporis sed amet dicta expedita perspiciatis hic quas esse accusantium fuga minus eius nesciunt. Temporibus at, voluptates quia odio quod molestias, rerum debitis, alias optio fugit praesentium dolorum cupiditate. Nobis pariatur debitis ad iusto enim sapiente eaque minus molestiae suscipit aut provident quis soluta magnam error aliquam maxime voluptatibus nihil delectus cumque fugit, tempora repellat quidem? Hic mollitia aut, quisquam aperiam, dicta adipisci illum suscipit numquam at iure nostrum deserunt totam recusandae quia quam nisi rem. Quisquam dolorum cupiditate aspernatur deserunt nostrum quae, quasi incidunt repudiandae earum molestias? Dolores repudiandae sapiente dolorum aut excepturi aliquam expedita ipsum?  
+    </p>
+
+    <script>
+        function changeBg(colour){
+            document.body.style.backgroundColor = colour;
+        }
+    </script>
+
+</body>
+</html>
